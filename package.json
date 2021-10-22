@@ -1,0 +1,25 @@
+{
+  "name": "web-automation",
+  "version": "1.0.0",
+  "description": "Project for Web Automation and Scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinC9/Walmart-Bot.git"
+  },
+  "author": "Austin Carson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinC9/Walmart-Bot/issues"
+  },
+  "homepage": "https://github.com/AustinC9/Walmart-Bot#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.14.1",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
