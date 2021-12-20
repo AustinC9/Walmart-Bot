@@ -30,9 +30,9 @@ async function addToCart(page){
     await page.waitForTimeout(10000);
     // await page.waitForSelector('.email');
     await page.focus('.sign-in-form');
-    await page.type('.email', 'austin.carson4@gmail.com')
+    await page.type('.email', 'email@test.com')
     await page.waitForTimeout(100);
-    await page.type("input[id='password']", 'Soccer1749!');
+    await page.type("input[id='password']", 'pass');
 }
 // async function walmartSignIn(page){
 //     await page.waitForTimeout(10000);
