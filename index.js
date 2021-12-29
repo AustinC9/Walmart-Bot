@@ -36,9 +36,7 @@ async function addToCart(page){
 }
 // async function walmartSignIn(page){
 //     await page.waitForTimeout(10000);
-//     await page.type("input[id='email'", 'austin.carson4@gmail.com');
 //     await page.waitForTimeout(100);
-//     await page.type("input[id='password'", 'Soccer1749!');
 // }
 
 async function checkout(){
